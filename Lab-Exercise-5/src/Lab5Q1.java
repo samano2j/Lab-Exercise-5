@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lab5Q1 {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> integerList = new ArrayList<>();
+		ArrayList<Integer> integerList = new ArrayList<Integer>(10);
         Random randomInt = new Random();
         Scanner scan = new Scanner(System.in);
         int userPrompt;
